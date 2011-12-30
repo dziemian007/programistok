@@ -5,16 +5,20 @@
 #   gem 'sqlite3'
 
 development:
-  adapter: pg
-  database: db/development.pg
+  adapter: postgresql
+  encoding: utf8
+  database: postgres
   pool: 5
-  timeout: 5000
+  username: postgres
+  password: passwd
 
-test:
-  adapter: pg
-  database: db/test.pg
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: postgres
   pool: 5
-  timeout: 5000
+  username: postgres
+  password: passwd
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
