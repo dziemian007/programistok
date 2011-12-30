@@ -4,8 +4,8 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-gem 'mysql2'
+#gem 'sqlite3'
+#gem 'mysql2'
 gem 'pg'
 
 gem 'gravatar_image_tag', '1.0.0.pre2'
