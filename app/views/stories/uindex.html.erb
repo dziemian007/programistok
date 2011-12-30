@@ -8,7 +8,6 @@
 		</p>
 		<p class="timestamp">dodano <%= story.created_at.strftime("%Y-%m-%d %H:%M") %></p>
 		<p align="right">
-			<button class="btn comment-btn" id="<%= story.id%>">Komentarze</button>
 			<%= link_to raw('<button class="btn">Szczegóły</button>'), story %>
 		</p>
 		<p id="form-<%= story.id %>" class="hidden">
