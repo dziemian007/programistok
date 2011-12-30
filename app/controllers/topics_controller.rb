@@ -52,7 +52,7 @@ class TopicsController < ApplicationController
 		@title = "Nowy temat"
     respond_to do |format|
       if @topic.save
-        UserMailer.send_email(@topic).deliver
+        UserMailer.send_email(@topic, topic_url(@topic)).deliver
 				if admin_signed_in?
 					format.html { redirect_to @topic, notice: 'Temat utworzono pomyślnie.' }
 				else
