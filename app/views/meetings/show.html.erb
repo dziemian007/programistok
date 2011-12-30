@@ -1,0 +1,42 @@
+<h2>
+	<%= @meeting.title %>
+</h2>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Opis:</b>
+  <%= @meeting.content %>
+</p>
+
+<p>
+  <b>Termin:</b>
+  <%= @meeting.datetime.strftime("%Y-%m-%d %H:%M") %>
+</p>
+
+<p>
+  <b>Miejsce:</b>
+  <span id="meeting-address-1"><%= @meeting.place %></span>
+	<div id="map_canvas_1" style="width:550px; height:300px; margin-bottom:10px;"></div>
+</p>
+
+<p>
+  <b>Teamty:</b>
+		<table class="zebra-striped">
+		<tr>
+		  <th>Tytuł</th>
+		  <th>Mówca</th>
+		  <th>Skrót</th>
+		</tr>
+  <% @topics.each do |topic| %>
+	<tr>
+		<td><%= link_to topic.title, topic %></td>
+		<td><%= topic.speaker %> [<%= link_to(topic.email, "mailto:"+topic.email) %>]</td>
+		<td><%= topic.content[0..20] %></td>
+	</tr>
+	<% end %>
+	</table>
+</p>
+
+<%= link_to 'Edycja', edit_meeting_path(@meeting) %> |
+<%= link_to 'Wstecz', meetings_path %>

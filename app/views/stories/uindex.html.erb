@@ -1,0 +1,24 @@
+<table>
+
+<% @stories.each do |story| %>
+	<tr><td>
+		<h3><%= link_to story.title, story %></h3>
+    <p align="justify">
+			<%= story.teaser %>
+		</p>
+		<p class="timestamp">dodano <%= story.created_at.strftime("%Y-%m-%d %H:%M") %></p>
+		<p align="right">
+			<button class="btn comment-btn" id="<%= story.id%>">Komentarze</button>
+			<%= link_to raw('<button class="btn">Szczegóły</button>'), story %>
+		</p>
+		<p id="form-<%= story.id %>" class="hidden">
+			nowy komentarz
+		</p>
+</td></tr>
+<% end %>
+
+</table>
+
+<center>
+	<%= will_paginate @stories, :class=>"paginate", :previous_label=>"&laquo; Poprzednia", :next_label=>"Następna &raquo;" %>
+</center>

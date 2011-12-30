@@ -1,0 +1,29 @@
+<h2>Spotkania</h2>
+
+<table class="zebra-striped">
+  <tr>
+    <th>Tytuł</th>
+    <th>Opis</th>
+    <th>Termin</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @meetings.each do |meeting| %>
+  <tr>
+    <td><%= meeting.title[0..20] %></td>
+    <td><%= meeting.content[0..20] %></td>
+    <td><%= meeting.datetime.strftime("%y-%m-%d %H:%M") %></td>
+    <td><%= link_to 'Szczegóły', meeting %></td>
+    <td><%= link_to 'Edytuj', edit_meeting_path(meeting) %></td>
+    <td><%= link_to 'Usuń', meeting, confirm: 'Jesteś pewien?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<center>
+	<%= will_paginate @meetings, :class=>"paginate", :previous_label=>"&laquo; Poprzednia", :next_label=>"Następna &raquo;" %>
+</center>
+
+<%= link_to 'Nowe spotkanie', new_meeting_path %>

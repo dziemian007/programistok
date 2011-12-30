@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Nowa propozycja tematu została dodana w serwisie !</h1>
+    <p>
+      tytuł: <%= @topic.title %><br />
+      mówca: <%= @topic.speaker %> [<%= @topic.email %>]<br />
+      opis: <%= @topic.content %><br />
+    </p>
+    <p>
+      Aby wyświetlić więcej informacji przejdź na stronę Programistoku: <%= @url %>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<h2>Newsy</h2>
+
+<table class="zebra-striped">
+  <tr>
+    <th>Tytuł</th>
+    <th>Skrót</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @stories.each do |story| %>
+  <tr>
+    <td><%= story.title[0..20] %></td>
+    <td><%= story.teaser[0..40] %></td>
+    <td><%= link_to 'Szczegóły', story %></td>
+    <td><%= link_to 'Edytuj', edit_story_path(story) %></td>
+    <td><%= link_to 'Usuń', story, confirm: 'Jesteś pewien?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<center>
+	<%= will_paginate @stories, :class=>"paginate", :previous_label=>"&laquo; Poprzednia", :next_label=>"Następna &raquo;" %>
+</center>
+
+<%= link_to 'Nowy news', new_story_path %>
+
+
+<%= @tweets %>

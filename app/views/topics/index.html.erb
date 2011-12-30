@@ -1,0 +1,29 @@
+<h2>Tematy i propozycje</h2>
+
+<table class="zebra-striped">
+  <tr>
+    <th>Tytuł</th>
+    <th>Mówca</th>
+    <th>Propozycja?</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @topics.each do |topic| %>
+  <tr>
+    <td><%= topic.title[0..20] %></td>
+    <td><%= topic.speaker[0..20] %></td>
+    <td><%= topic.meeting_id==nil ? 'tak' : 'nie' %></td>
+    <td><%= link_to 'Szczegóły', topic %></td>
+    <td><%= link_to 'Edytuj', edit_topic_path(topic) %></td>
+    <td><%= link_to 'Usuń', topic, confirm: 'Jesteś pewien?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<center>
+	<%= will_paginate @topics, :class=>"paginate", :previous_label=>"&laquo; Poprzednia", :next_label=>"Następna &raquo;" %>
+</center>
+
+<%= link_to 'Nowy temat', new_topic_path %>

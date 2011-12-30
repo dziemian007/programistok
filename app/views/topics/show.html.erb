@@ -1,0 +1,36 @@
+<h2>
+	<%= @topic.title %>
+</h2>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Opis:</b>
+  <%= @topic.content %>
+</p>
+
+<p>
+  <b>Mówca:</b>
+  <%= @topic.speaker %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= link_to @topic.email, "mailto:" + @topic.email %>
+</p>
+
+<p>
+  <b>Propozycja?:</b>
+  <%= @meeting ? 'nie' : 'tak' %>
+</p>
+
+<p>
+
+	<% if @meeting %>
+  <b>Podczas spotkania:</b>
+  <%= link_to @meeting.title, @meeting %>
+	<% end %>
+</p>
+
+<%= link_to 'Edycja', edit_topic_path(@topic) %> |
+<%= link_to 'Wstecz', topics_path %>

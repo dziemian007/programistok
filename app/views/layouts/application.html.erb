@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <%= javascript_include_tag "application" %>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA8K99m7uGfV7ElVlCdeehxaQc_dHEuJXY&sensor=false"></script>
+	<%= csrf_meta_tag %>
+  <%= stylesheet_link_tag    "application" %>
+	<%= stylesheet_link_tag 	 "custom", :media => "screen" %>
+  <%= stylesheet_link_tag    "jquery-ui-1.8.16.custom" %>
+</head>
+<body onload="initialize()">
+
+	<div class="topbar">
+		<%= render "layouts/header" %>
+	</div>
+
+	<div class="container">
+		<div class="content">
+			<div class="page-header">
+				<%= render_header("comiesięczne spotkania programistów") %>
+        <div id="follow" style="float:right">
+        <%= link_to image_tag("facebook.png", :title=>"follow us on facebook"), "http://www.facebook.com/pages/Programistok/237808102923666", :target=>:blank %>
+        <%= link_to image_tag("twitter.png", :title=>"follow us on twitter"), "http://twitter.com/Programistok", :target=>:blank %>
+        </div>
+			</div>
+			<div class="row">
+				<div class="span10">
+					<% if !notice.nil? %>
+						<p class="notice alert-message success"><%= notice %></p>
+					<% end %>
+					<% if !alert.nil? %>
+	        <p class="alert alert-message error"><%= alert %></p>
+					<% end %>
+					<%= yield %>
+				</div>
+				<div class="span4">
+					<%= render "layouts/sidebar" %>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<%= debug(params) if Rails.env.development? %>
+			<%= render "layouts/footer" %>
+		</footer>
+	</div>
+
+</body>
+</html>

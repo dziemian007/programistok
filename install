@@ -1,0 +1,319 @@
+Skrypt uruchomiony wto, 27 gru 2011, 16:46:26
+ ________________________________________
+( You have a reputation for being        )
+( thoroughly reliable and trustworthy. A )
+( pity that it's totally undeserved.     )
+ ----------------------------------------
+  o
+   o   \_\_    _/_/
+    o      \__/
+           (oo)\_______
+           (__)\       )\/\
+               ||----w |
+               ||     ||
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m rake routes[K[K[K[K[K[K[K[K[K[K[Kcd programistok/..[Kgit push heroku master[Kcommit -m "working links to emmail and phone"[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C heroku mastercd ..[Kprogramistok/[Krake routes[Krake db:data:dump
+rake aborted!
+Don't know how to build task 'db:data:dump'
+
+(See full trace by running task with --trace)
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m script/plugin install git://githu b.com/adamwiggins/yaml_db.git
+bash: script/plugin: No such file or directory
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m A[KA[Kscript/plugin install git://githu b.com/adamwiggins/yaml_db.git
+bash: script/plugin: No such file or directory
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m script/plugin install git://githubb.com/adamwiggins/yaml_db.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cplugin install git://github.[1Pcom/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[Cplugin install git://github.c[1Pom/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[Clugin install git://github.co[1Pm/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[Cplugin install git://github.com[1P/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[Cplugin install git://github.com/[1Padamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[Cplugin install git://github.com/a[1Pdamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [Cplugin install git://github.com/ad[1Pamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m 
+
+plugin: command not found
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m ruby script/plugin install git:// github.com/adamwiggins/yaml_db.git
+ruby: No such file or directory -- script/plugin (LoadError)
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m ruby script/plugin install git://ggithub.com/adamwiggins/yaml_db.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C install git://gi[1Pthub.com/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C install git://git[1Phub.com/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C install git://gith[1Pub.com/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C install git://githu[1Pb.com/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C install git://github[1P.com/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C install git://github.[1Pcom/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C[C install git://github.c[1Pom/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C
+
+ruby: Is a directory - script (Errno::EISDIR)
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m ruby script install git://github.ccom/adamwiggins/yaml_db.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinstall git://github.co[1Pm/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[Cinstall git://github.com[1P/adamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[Cinstall git://github.com/[1Padamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[Cnstall git://github.com/a[1Pdamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[Cinstall git://github.com/ad[1Pamwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[Cinstall git://github.com/ada[1Pmwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[Cinstall git://github.com/adam[1Pwiggins/yaml_db.git[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C
+
+install:1: syntax error, unexpected tIDENTIFIER, expecting $end
+Skrypt uruchomiony wto, 27 gru 2011, 16:46:26
+                              ^
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m bundle
+Using rake (0.9.2.2) 
+Using multi_json (1.0.4) 
+Using activesupport (3.1.3) 
+Using builder (3.0.0) 
+Using i18n (0.6.0) 
+Using activemodel (3.1.3) 
+Using erubis (2.7.0) 
+Using rack (1.3.5) 
+Using rack-cache (1.1) 
+Using rack-mount (0.8.3) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.0.3) 
+Using actionpack (3.1.3) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.3.0) 
+Using actionmailer (3.1.3) 
+Using arel (2.2.1) 
+Using tzinfo (0.3.31) 
+Using activerecord (3.1.3) 
+Using activeresource (3.1.3) 
+Using bcrypt-ruby (3.0.1) 
+Using bundler (1.0.21) 
+Using nokogiri (1.5.0) 
+Using ffi (1.0.11) 
+Using childprocess (0.2.3) 
+Using rubyzip (0.9.5) 
+Using selenium-webdriver (2.15.0) 
+Using xpath (0.1.4) 
+Using capybara (1.1.2) 
+Using coffee-script-source (1.1.3) 
+Using execjs (1.2.12) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.3) 
+Using rdoc (3.12) 
+Using thor (0.14.6) 
+Using railties (3.1.3) 
+Using coffee-rails (3.1.1) 
+Using orm_adapter (0.0.5) 
+Using warden (1.1.0) 
+Using devise (2.0.0.rc) from git://github.com/plataformatec/devise.git (at master) 
+Using diff-lcs (1.1.3) 
+Using disqus (1.0.4) 
+Using factory_girl (1.3.3) 
+Using rails (3.1.3) 
+Using factory_girl_rails (1.0) 
+Using faker (0.3.1) 
+Using gravatar_image_tag (1.0.0.pre2) 
+Using jquery-rails (1.0.19) 
+Using libv8 (3.3.10.4) 
+Using mysql (2.8.1) 
+Using rspec-core (2.6.4) 
+Using rspec-expectations (2.6.0) 
+Using rspec-mocks (2.6.0) 
+Using rspec (2.6.0) 
+Using rspec-rails (2.6.1) 
+Using sass (3.1.12) 
+Using sass-rails (3.1.5) 
+Using sqlite3 (1.3.5) 
+Using therubyracer (0.9.9) 
+Using timecop (0.3.5) 
+Using uglifier (1.2.0) 
+Using will_paginate (3.0.2) 
+Using yaml_db (0.2.2) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m bundle install
+Using rake (0.9.2.2) 
+Using multi_json (1.0.4) 
+Using activesupport (3.1.3) 
+Using builder (3.0.0) 
+Using i18n (0.6.0) 
+Using activemodel (3.1.3) 
+Using erubis (2.7.0) 
+Using rack (1.3.5) 
+Using rack-cache (1.1) 
+Using rack-mount (0.8.3) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.0.3) 
+Using actionpack (3.1.3) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.3.0) 
+Using actionmailer (3.1.3) 
+Using arel (2.2.1) 
+Using tzinfo (0.3.31) 
+Using activerecord (3.1.3) 
+Using activeresource (3.1.3) 
+Using bcrypt-ruby (3.0.1) 
+Using bundler (1.0.21) 
+Using nokogiri (1.5.0) 
+Using ffi (1.0.11) 
+Using childprocess (0.2.3) 
+Using rubyzip (0.9.5) 
+Using selenium-webdriver (2.15.0) 
+Using xpath (0.1.4) 
+Using capybara (1.1.2) 
+Using coffee-script-source (1.1.3) 
+Using execjs (1.2.12) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.3) 
+Using rdoc (3.12) 
+Using thor (0.14.6) 
+Using railties (3.1.3) 
+Using coffee-rails (3.1.1) 
+Using orm_adapter (0.0.5) 
+Using warden (1.1.0) 
+Using devise (2.0.0.rc) from git://github.com/plataformatec/devise.git (at master) 
+Using diff-lcs (1.1.3) 
+Using disqus (1.0.4) 
+Using factory_girl (1.3.3) 
+Using rails (3.1.3) 
+Using factory_girl_rails (1.0) 
+Using faker (0.3.1) 
+Using gravatar_image_tag (1.0.0.pre2) 
+Using jquery-rails (1.0.19) 
+Using libv8 (3.3.10.4) 
+Using mysql (2.8.1) 
+Using rspec-core (2.6.4) 
+Using rspec-expectations (2.6.0) 
+Using rspec-mocks (2.6.0) 
+Using rspec (2.6.0) 
+Using rspec-rails (2.6.1) 
+Using sass (3.1.12) 
+Using sass-rails (3.1.5) 
+Using sqlite3 (1.3.5) 
+Using therubyracer (0.9.9) 
+Using timecop (0.3.5) 
+Using uglifier (1.2.0) 
+Using will_paginate (3.0.2) 
+Using yaml_db (0.2.2) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m rails gem install
+Error: Command not recognized
+Usage: rails COMMAND [ARGS]
+
+The most common rails commands are:
+ generate    Generate new code (short-cut alias: "g")
+ console     Start the Rails console (short-cut alias: "c")
+ server      Start the Rails server (short-cut alias: "s")
+ dbconsole   Start a console for the database specified in config/database.yml
+             (short-cut alias: "db")
+ new         Create a new Rails application. "rails new my_app" creates a
+             new application called MyApp in "./my_app"
+
+In addition to those, there are:
+ application  Generate the Rails application code
+ destroy      Undo code generated with "generate"
+ benchmarker  See how fast a piece of code runs
+ profiler     Get profile information from a piece of code
+ plugin       Install a plugin
+ runner       Run a piece of code in the application environment (short-cut alias: "r")
+
+All commands can be run with -h for more information.
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m rails gem install yaml_db
+Error: Command not recognized
+Usage: rails COMMAND [ARGS]
+
+The most common rails commands are:
+ generate    Generate new code (short-cut alias: "g")
+ console     Start the Rails console (short-cut alias: "c")
+ server      Start the Rails server (short-cut alias: "s")
+ dbconsole   Start a console for the database specified in config/database.yml
+             (short-cut alias: "db")
+ new         Create a new Rails application. "rails new my_app" creates a
+             new application called MyApp in "./my_app"
+
+In addition to those, there are:
+ application  Generate the Rails application code
+ destroy      Undo code generated with "generate"
+ benchmarker  See how fast a piece of code runs
+ profiler     Get profile information from a piece of code
+ plugin       Install a plugin
+ runner       Run a piece of code in the application environment (short-cut alias: "r")
+
+All commands can be run with -h for more information.
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m gem install yaml
+ERROR:  Could not find a valid gem 'yaml' (>= 0) in any repository
+ERROR:  Possible alternatives: cyaml, haml, maml, raml, yam
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m rake db:data:dump
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m git add .
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m git dco[K[K[Kcommit "[K-m "stories aka. na[Kews" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.ka. news""[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.a. news"[A[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[master f8a8694] stories a.k.a. news
+ 97 files changed, 3988 insertions(+), 87 deletions(-)
+ create mode 100644 .rspec
+ create mode 100644 app/assets/images/code.png
+ create mode 100644 app/assets/images/facebook.png
+ create mode 100644 app/assets/images/twitter.png
+ create mode 100644 app/assets/javascripts/admins.js.coffee
+ create mode 100644 app/assets/javascripts/bootstrap-dropdown.js
+ create mode 100644 app/assets/javascripts/meetings.js.coffee
+ create mode 100644 app/assets/javascripts/topics.js.coffee
+ create mode 100644 app/controllers/admins_controller.rb
+ create mode 100644 app/controllers/meetings_controller.rb
+ create mode 100644 app/controllers/topics_controller.rb
+ create mode 100644 app/helpers/admins_helper.rb
+ create mode 100644 app/helpers/meetings_helper.rb
+ create mode 100644 app/helpers/topics_helper.rb
+ create mode 100644 app/models/admin.rb
+ create mode 100644 app/models/meeting.rb
+ create mode 100644 app/models/topic.rb
+ create mode 100644 app/views/admins/show.html.erb
+ create mode 100644 app/views/devise/confirmations/new.html.erb
+ create mode 100644 app/views/devise/mailer/confirmation_instructions.html.erb
+ create mode 100644 app/views/devise/mailer/reset_password_instructions.html.erb
+ create mode 100644 app/views/devise/mailer/unlock_instructions.html.erb
+ create mode 100644 app/views/devise/passwords/edit.html.erb
+ create mode 100644 app/views/devise/passwords/new.html.erb
+ create mode 100644 app/views/devise/registrations/edit.html.erb
+ create mode 100644 app/views/devise/registrations/new.html.erb
+ create mode 100644 app/views/devise/sessions/new.html.erb
+ create mode 100644 app/views/devise/shared/_links.erb
+ create mode 100644 app/views/devise/unlocks/new.html.erb
+ create mode 100644 app/views/meetings/_form.html.erb
+ create mode 100644 app/views/meetings/edit.html.erb
+ create mode 100644 app/views/meetings/index.html.erb
+ create mode 100644 app/views/meetings/new.html.erb
+ create mode 100644 app/views/meetings/show.html.erb
+ rewrite app/views/stories/index.html.erb (69%)
+ create mode 100644 app/views/stories/uindex.html.erb
+ create mode 100644 app/views/topics/_form.html.erb
+ create mode 100644 app/views/topics/edit.html.erb
+ create mode 100644 app/views/topics/index.html.erb
+ create mode 100644 app/views/topics/new.html.erb
+ create mode 100644 app/views/topics/show.html.erb
+ create mode 100644 config/initializers/devise.rb
+ create mode 100644 config/initializers/discuss.rb
+ create mode 100644 config/initializers/disqus.rb
+ create mode 100644 config/locales/devise.en.yml
+ create mode 100644 config/locales/devise.pl.yml
+ rewrite config/locales/en.yml (99%)
+ create mode 100644 config/locales/pl.yml
+ create mode 100644 db/data.yml
+ create mode 100644 db/migrate/20111222093732_create_meetings.rb
+ create mode 100644 db/migrate/20111222094128_create_topics.rb
+ create mode 100644 db/migrate/20111222094429_change_meeting_date.rb
+ create mode 100644 db/migrate/bin/20111221105837_create_stories.rb
+ create mode 100644 db/migrate/bin/20111221150308_devise_create_admins.rb
+ create mode 100644 install
+ create mode 100644 spec/controllers/meetings_controller_spec.rb
+ create mode 100644 spec/controllers/topics_controller_spec.rb
+ create mode 100644 spec/factories.rb
+ create mode 100644 spec/helpers/meetings_helper_spec.rb
+ create mode 100644 spec/helpers/topics_helper_spec.rb
+ create mode 100644 spec/models/meeting_spec.rb
+ create mode 100644 spec/models/topic_spec.rb
+ create mode 100644 spec/requests/admins_spec.rb
+ copy spec/requests/{stories_spec.rb => meetings_spec.rb} (74%)
+ rewrite spec/requests/stories_spec.rb (86%)
+ rename spec/requests/{stories_spec.rb => topics_spec.rb} (75%)
+ create mode 100644 spec/routing/meetings_routing_spec.rb
+ create mode 100644 spec/routing/topics_routing_spec.rb
+ create mode 100644 spec/spec_helper.rb
+ create mode 100644 spec/views/meetings/edit.html.erb_spec.rb
+ create mode 100644 spec/views/meetings/index.html.erb_spec.rb
+ create mode 100644 spec/views/meetings/new.html.erb_spec.rb
+ create mode 100644 spec/views/meetings/show.html.erb_spec.rb
+ create mode 100644 spec/views/topics/edit.html.erb_spec.rb
+ create mode 100644 spec/views/topics/index.html.erb_spec.rb
+ create mode 100644 spec/views/topics/new.html.erb_spec.rb
+ create mode 100644 spec/views/topics/show.html.erb_spec.rb
+ create mode 100644 webrat.log
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m git push
+To git@github.com:amberbit/programistok.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:amberbit/programistok.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes before pushing again.  See the 'Note about
+fast-forwards' section of 'git push --help' for details.
+[01;32mkaa@kaa-Vostro-3500[01;34m ~/Dokumenty/programistok $[00m git push -f
+Counting objects: 244, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/214)   Compressing objects:   1% (3/214)   Compressing objects:   2% (5/214)   Compressing objects:   3% (7/214)   Compressing objects:   4% (9/214)   Compressing objects:   5% (11/214)   Compressing objects:   6% (13/214)   Compressing objects:   7% (15/214)   Compressing objects:   8% (18/214)   Compressing objects:   9% (20/214)   Compressing objects:  10% (22/214)   Compressing objects:  11% (24/214)   Compressing objects:  12% (26/214)   Compressing objects:  13% (28/214)   Compressing objects:  14% (30/214)   Compressing objects:  15% (33/214)   Compressing objects:  16% (35/214)   Compressing objects:  17% (37/214)   Compressing objects:  18% (39/214)   Compressing objects:  19% (41/214)   Compressing objects:  20% (43/214)   Compressing objects:  21% (45/214)   Compressing objects:  22% (48/214)   Compressing objects:  23% (50/214)   Compressing objects:  24% (52/214)   Compressing objects:  25% (54/214)   Compressing objects:  26% (56/214)   Compressing objects:  27% (58/214)   Compressing objects:  28% (60/214)   Compressing objects:  29% (63/214)   Compressing objects:  30% (65/214)   Compressing objects:  31% (67/214)   Compressing objects:  32% (69/214)   Compressing objects:  33% (71/214)   Compressing objects:  34% (73/214)   Compressing objects:  35% (75/214)   Compressing objects:  36% (78/214)   Compressing objects:  37% (80/214)   Compressing objects:  38% (82/214)   Compressing objects:  39% (84/214)   Compressing objects:  40% (86/214)   Compressing objects:  41% (88/214)   Compressing objects:  42% (90/214)   Compressing objects:  43% (93/214)   Compressing objects:  44% (95/214)   Compressing objects:  45% (97/214)   Compressing objects:  46% (99/214)   Compressing objects:  47% (101/214)   Compressing objects:  48% (103/214)   Compressing objects:  49% (105/214)   Compressing objects:  50% (107/214)   Compressing objects:  51% (110/214)   Compressing objects:  52% (112/214)   Compressing objects:  53% (114/214)   Compressing objects:  54% (116/214)   Compressing objects:  55% (118/214)   Compressing objects:  56% (120/214)   Compressing objects:  57% (122/214)   Compressing objects:  58% (125/214)   Compressing objects:  59% (127/214)   Compressing objects:  60% (129/214)   Compressing objects:  61% (131/214)   Compressing objects:  62% (133/214)   Compressing objects:  63% (135/214)   Compressing objects:  64% (137/214)   Compressing objects:  65% (140/214)   Compressing objects:  66% (142/214)   Compressing objects:  67% (144/214)   Compressing objects:  68% (146/214)   Compressing objects:  69% (148/214)   Compressing objects:  70% (150/214)   Compressing objects:  71% (152/214)   Compressing objects:  72% (155/214)   Compressing objects:  73% (157/214)   Compressing objects:  74% (159/214)   Compressing objects:  75% (161/214)   Compressing objects:  76% (163/214)   Compressing objects:  77% (165/214)   Compressing objects:  78% (167/214)   Compressing objects:  79% (170/214)   Compressing objects:  80% (172/214)   Compressing objects:  81% (174/214)   Compressing objects:  82% (176/214)   Compressing objects:  83% (178/214)   Compressing objects:  84% (180/214)   Compressing objects:  85% (182/214)   Compressing objects:  86% (185/214)   Compressing objects:  87% (187/214)   Compressing objects:  88% (189/214)   Compressing objects:  89% (191/214)   Compressing objects:  90% (193/214)   Compressing objects:  91% (195/214)   Compressing objects:  92% (197/214)   Compressing objects:  93% (200/214)   Compressing objects:  94% (202/214)   Compressing objects:  95% (204/214)   Compressing objects:  96% (206/214)   Compressing objects:  97% (208/214)   Compressing objects:  98% (210/214)   Compressing objects:  99% (212/214)   Compressing objects: 100% (214/214)   Compressing objects: 100% (214/214), done.
+Writing objects:   0% (1/244)   Writing objects:   1% (3/244)   Writing objects:   2% (5/244)   Writing objects:   3% (8/244)   Writing objects:   4% (10/244)   Writing objects:   5% (13/244)   Writing objects:   6% (15/244)   Writing objects:   7% (18/244)   Writing objects:   8% (20/244)   Writing objects:   9% (22/244)   Writing objects:  10% (25/244)   Writing objects:  11% (27/244)   Writing objects:  13% (32/244)   Writing objects:  14% (35/244)   Writing objects:  15% (37/244)   Writing objects:  16% (40/244)   Writing objects:  17% (42/244)   Writing objects:  18% (44/244)   Writing objects:  19% (47/244)   Writing objects:  20% (49/244)   Writing objects:  22% (55/244)   Writing objects:  23% (57/244)   Writing objects:  24% (59/244)   Writing objects:  25% (61/244)   Writing objects:  26% (64/244)   Writing objects:  27% (66/244)   Writing objects:  28% (69/244)   Writing objects:  29% (71/244)   Writing objects:  30% (74/244)   Writing objects:  31% (77/244)   Writing objects:  32% (79/244)   Writing objects:  33% (81/244)   Writing objects:  34% (83/244)   Writing objects:  35% (86/244)   Writing objects:  36% (88/244)   Writing objects:  37% (91/244)   Writing objects:  38% (93/244)   Writing objects:  39% (96/244)   Writing objects:  40% (98/244)   Writing objects:  41% (101/244)   Writing objects:  42% (103/244)   Writing objects:  43% (105/244)   Writing objects:  44% (108/244)   Writing objects:  45% (110/244)   Writing objects:  46% (113/244)   Writing objects:  47% (115/244)   Writing objects:  48% (118/244)   Writing objects:  49% (120/244)   Writing objects:  50% (122/244)   Writing objects:  51% (125/244)   Writing objects:  52% (127/244)   Writing objects:  53% (130/244)   Writing objects:  54% (132/244)   Writing objects:  55% (135/244)   Writing objects:  56% (137/244)   Writing objects:  57% (140/244)   Writing objects:  58% (142/244)   Writing objects:  59%

@@ -1,0 +1,37 @@
+<%= form_for(@meeting) do |f| %>
+
+  <% if @meeting.errors.any? %>
+      <h3 class="field_with_errors">Wystąpiły błędy w formularzu !</h3>
+  <% end %>
+
+  <div class="clearfix field">
+    <%= f.label :title, "Tytuł" %>
+    <%= f.text_field :title, :class=>"span8" %>
+		<%= conditional_error_message_for(@meeting, :title) %>
+  </div>
+  <div class="clearfix field">
+    <%= f.label :content, "Opis" %>
+    <%= f.text_area :content, :class=>"span8" %>
+		<%= conditional_error_message_for(@meeting, :content) %>
+  </div>
+  <div class="clearfix field">
+    <%= f.label :datetime, "Termin" %>
+    <%= f.datetime_select :datetime, :class=>"span3" %>
+		<%= conditional_error_message_for(@meeting, :datetime) %>
+  </div>
+  <div class="clearfix field">
+    <%= f.label :place, "Miejsce" %>
+    <%= f.text_field :place, :class=>"span8" %>
+		<%= conditional_error_message_for(@meeting, :place) %>
+  </div>
+  <div class="clearfix field">
+		<%= f.label :topics, "Tematy" %>
+		<%= f.select :topics, options_from_collection_for_select(@alltopics, :id, :short_desc), {}, :multiple=>true, :class=>"span8" %>
+		<%= conditional_error_message_for(@meeting, :topics) %>
+  </div>
+
+  <div class="clearfix actions">
+		<%= f.submit "Zapisz", :class=>"btn"%>
+  </div>
+<% end %>
+

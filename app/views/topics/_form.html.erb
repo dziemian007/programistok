@@ -1,0 +1,30 @@
+<%= form_for(@topic) do |f| %>
+
+  <% if @topic.errors.any? %>
+      <h3 class="field_with_errors">Wystąpiły błędy w formularzu !</h3>
+  <% end %>
+
+  <div class="clearfix field">
+    <%= f.label :title, "Tytuł" %>
+    <%= f.text_field :title, :class=>"span8" %>
+		<%= conditional_error_message_for(@topic, :title) %>
+  </div>
+  <div class="clearfix field">
+    <%= f.label :content, "Opis" %>
+    <%= f.text_area :content, :class=>"span8" %>
+		<%= conditional_error_message_for(@topic, :content) %>
+  </div>
+  <div class="clearfix field">
+    <%= f.label :speaker, "Mówca" %>
+    <%= f.text_field :speaker, :class=>"span8" %>
+		<%= conditional_error_message_for(@topic, :speaker) %>
+  </div>
+  <div class="clearfix field">
+    <%= f.label :email %>
+    <%= f.text_field :email, :class=>"span8" %>
+		<%= conditional_error_message_for(@topic, :email) %>
+  </div>
+  <div class="clearfix actions">
+    <%= f.submit "Zapisz", :class=>"btn" %>
+  </div>
+<% end %>
