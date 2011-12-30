@@ -32,6 +32,10 @@ body {
   margin: -20px -20px 20px;
 }
 
+.page-header > a {
+  text-decoration: none;
+}
+
 #follow {
   margin-top:-50px;
 }
@@ -93,7 +97,7 @@ div.field_with_errors > span {
 }
 
 div.ui-datepicker {
-  font: 10px "Trebuchet MS",sans-serif;
+  font: 12px "Trebuchet MS",sans-serif;
   width: 200px !important;
 }
 

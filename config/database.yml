@@ -5,12 +5,12 @@
 #   gem 'sqlite3'
 
 development:
-  adapter: postgresql
+  adapter: mysql2
   encoding: utf8
-  database: postgres
-  pool: 5
-  username: postgres
+  database: programistok_development
+  username: root
   password: passwd
+  socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: postgresql
