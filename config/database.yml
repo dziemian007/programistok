@@ -5,20 +5,20 @@
 #   gem 'sqlite3'
 
 development:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
-  database: programistok_development
-  username: root
+  database: postgres
+  pool: 5
+  username: postgres
   password: passwd
-  socket: /var/run/mysqld/mysqld.sock
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
-  database: programistok_production
-  username: root
+  database: postgres
+  pool: 5
+  username: postgres
   password: passwd
-  socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
