@@ -69,8 +69,8 @@ class StoriesController < ApplicationController
         Twitter.configure do |config|
           config.consumer_key = "d0cBwm8xz8xaDcl6UmQQ"
           config.consumer_secret = "slMtX83BBkncJ2PilzYjvEhYdtqVYggzZhVXGT8Ac"
-          config.oauth_token = "450629388-Sfu9oNCeh0wgzhVWWe2mlYNd20oRonfUtIkxa9LH"
-          config.oauth_token_secret = "nmx0MDsfMEWo7LZi7jboA4l8zj78emn9qfZiyvcQw"
+          config.oauth_token = "450629388-dHkETGzc2AxWiQWABCGTlIPH8zxpszPFlBAI1CZq"
+          config.oauth_token_secret = "IXBsgYXtra05zzbU8S7Bm8OniMZN17K1s9MIsoX2w"
         end
         Twitter.update(@story.title + "   " + story_url(@story))
         format.html { redirect_to @story, notice: 'Wiadomość utworzono pomyślnie.' }
