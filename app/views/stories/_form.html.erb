@@ -10,14 +10,14 @@
 		<%= conditional_error_message_for(@story, :title) %>
   </div>
   <div class="clearfix field">
-    <%= f.label :content, "Opis" %>
-    <%= f.text_area :content, :class=>"span8" %>
-		<%= conditional_error_message_for(@story, :content) %>
+    <%= f.label :teaser, "Wstęp" %>
+    <%= f.text_area :teaser, :class=>"span8" %>
+		<%= conditional_error_message_for(@story, :teaser) %>
   </div>
   <div class="clearfix field">
-    <%= f.label :teaser, "Skrót" %>
-    <%= f.text_field :teaser, :class=>"span8" %>
-		<%= conditional_error_message_for(@story, :teaser) %>
+    <%= f.label :content, "Treść" %>
+    <%= f.text_area :content, :class=>"span8" %>
+		<%= conditional_error_message_for(@story, :content) %>
   </div>
   <div class="clearfix actions">
     <%= f.submit "Zapisz", :class=>"btn" %>

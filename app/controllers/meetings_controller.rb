@@ -30,7 +30,9 @@ class MeetingsController < ApplicationController
   # GET /meetings/new
   # GET /meetings/new.json
   def new
-    @meeting = Meeting.new
+    @now = Time.now
+    @now = @now.change(:hour=>19, :min=>0, :sec=>0)
+    @meeting = Meeting.new(:datetime=>@now)
 		@alltopics = Topic.where(:meeting_id => nil)
 		@title = "Nowe spotkanie"
     respond_to do |format|
@@ -59,10 +61,6 @@ class MeetingsController < ApplicationController
 		end
     respond_to do |format|
       if @meeting.save
-				@temp.each do |topic|
-					topic.proposal = false
-					topic.save
-				end
         format.html { redirect_to @meeting, notice: 'Meeting was successfully created.' }
         format.json { render json: @meeting, status: :created, location: @meeting }
       else
@@ -78,11 +76,11 @@ class MeetingsController < ApplicationController
   def update
     @meeting = Meeting.find(params[:id])
 		@title = "Edycja spotkania"
+    @oldtopics = Topic.where(:meeting_id => @meeting.id)
+    @oldtopics.each do |topic|
+      topic.update_attributes({:meeting_id => nil})
+    end
 		unless params[:meeting][:topics].nil?
-      @oldtopics = Topic.where(:meeting_id => @meeting.id)
-      @oldtopics.each do |topic|
-        topic.update_attributes({:meeting_id => nil})
-      end
 			@temp = Topic.find(params[:meeting][:topics])
 			@meeting.topics = @temp
 		end

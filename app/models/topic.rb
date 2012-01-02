@@ -1,6 +1,6 @@
 class Topic < ActiveRecord::Base
 
-	attr_accessible :title, :content, :speaker, :email, :proposal, :meeting_id
+	attr_accessible :title, :content, :speaker, :email, :presentation, :meeting_id
 
 	belongs_to :meeting
 
@@ -12,7 +12,7 @@ class Topic < ActiveRecord::Base
   validates :email, :presence => true, :format => { :with => email_regex }
 
 	def init
-		self.proposal = true
+		#self.presentation = true
 	end
 
 	def short_desc

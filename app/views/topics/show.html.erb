@@ -10,7 +10,7 @@
 </p>
 
 <p>
-  <b>Mówca:</b>
+  <b>Imię:</b>
   <%= @topic.speaker %>
 </p>
 
@@ -25,7 +25,11 @@
 </p>
 
 <p>
+  <b>Chce zaprezentować?:</b>
+  <%= @topic.presentation==true ? 'tak' : 'nie' %>
+</p>
 
+<p>
 	<% if @meeting %>
   <b>Podczas spotkania:</b>
   <%= link_to @meeting.title, @meeting %>

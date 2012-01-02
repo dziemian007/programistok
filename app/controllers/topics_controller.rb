@@ -31,7 +31,7 @@ class TopicsController < ApplicationController
   # GET /topics/new
   # GET /topics/new.json
   def new
-    @topic = Topic.new
+    @topic = Topic.new(:presentation=>true)
 		@title = "Nowy temat"
     respond_to do |format|
       format.html # new.html.erb
@@ -52,7 +52,7 @@ class TopicsController < ApplicationController
 		@title = "Nowy temat"
     respond_to do |format|
       if @topic.save
-        UserMailer.send_email(@topic, topic_url(@topic)).deliver
+        TopicsNotificationMailer.send_email(@topic, topic_url(@topic)).deliver
 				if admin_signed_in?
 					format.html { redirect_to @topic, notice: 'Temat utworzono pomyślnie.' }
 				else

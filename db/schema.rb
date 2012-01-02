@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111222094429) do
+ActiveRecord::Schema.define(:version => 20120102110051) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                              :default => "", :null => false
@@ -46,10 +46,10 @@ ActiveRecord::Schema.define(:version => 20111222094429) do
     t.text     "content"
     t.string   "speaker"
     t.string   "email"
-    t.boolean  "proposal"
     t.integer  "meeting_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "presentation"
   end
 
 end

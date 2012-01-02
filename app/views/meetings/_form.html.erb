@@ -16,7 +16,7 @@
   </div>
   <div class="clearfix field">
     <%= f.label :datetime, "Termin" %>
-    <%= f.datetime_select :datetime, :class=>"span3" %>
+    <%= f.datetime_select :datetime, :value=>@meeting[:datetime], :class=>"span3" %>
 		<%= conditional_error_message_for(@meeting, :datetime) %>
   </div>
   <div class="clearfix field">

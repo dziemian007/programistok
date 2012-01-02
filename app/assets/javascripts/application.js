@@ -16,6 +16,8 @@ $(function() {
 			$(this).css('width', '70px');
 	});
 
+  $(".event-li").popover({placement: "left", offset: 20});
+
 }); 
 
 var map1, map2;

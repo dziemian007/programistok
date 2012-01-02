@@ -15,7 +15,7 @@
 		<%= conditional_error_message_for(@topic, :content) %>
   </div>
   <div class="clearfix field">
-    <%= f.label :speaker, "Mówca" %>
+    <%= f.label :speaker, "Imię" %>
     <%= f.text_field :speaker, :class=>"span8" %>
 		<%= conditional_error_message_for(@topic, :speaker) %>
   </div>
@@ -24,7 +24,16 @@
     <%= f.text_field :email, :class=>"span8" %>
 		<%= conditional_error_message_for(@topic, :email) %>
   </div>
+
+  <div class="clearfix field">
+    <label></label>
+    <%= f.radio_button :presentation, "true", :value=>@topic[:presentation].to_s %> chcę zaprezentować
+    <%= f.radio_button :presentation, "false", :value=>!@topic[:presentation].to_s %> chcę posłuchać
+		<%= conditional_error_message_for(@topic, :presentation) %>
+  </div>
+
   <div class="clearfix actions">
     <%= f.submit "Zapisz", :class=>"btn" %>
   </div>
 <% end %>
+

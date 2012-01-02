@@ -91,9 +91,15 @@ div.field_with_errors > span {
 	margin-left: 60px;
 }
 
-.sidebar-ul {
+ul.sidebar-ul {
   list-style-type: square;
-  margin-bottom: 0px;
+  margin: 0px 0px 0px 10px !important;
+}
+
+li.event-li {
+  width: 200px;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 div.ui-datepicker {

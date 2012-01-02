@@ -7,12 +7,6 @@
 			<%= story.teaser %>
 		</p>
 		<p class="timestamp">dodano <%= story.created_at.strftime("%Y-%m-%d %H:%M") %></p>
-		<p align="right">
-			<%= link_to raw('<button class="btn">Szczegóły</button>'), story %>
-		</p>
-		<p id="form-<%= story.id %>" class="hidden">
-			nowy komentarz
-		</p>
 </td></tr>
 <% end %>
 

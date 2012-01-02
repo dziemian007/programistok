@@ -7,7 +7,6 @@ class ApplicationController < ActionController::Base
 
   def find_events_for_sidebar
     @events = Meeting.paginate(:page=>params[:event_page], :per_page=>1, :order=>"datetime desc")
-
     @event_topics = Topic.where(:meeting_id => @events[0].id) if @events
   end
 

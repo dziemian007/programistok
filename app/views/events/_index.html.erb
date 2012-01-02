@@ -2,12 +2,16 @@
 <table class="zebra-striped">
 <tr><th>Najbliższe spotkanie</th></tr>
 <tr><td><div id="datepicker"></div></td></tr>
-<tr><td><strong><%= link_to @events[0].title, @events[0] %></strong></td></tr>
+<tr><td><strong><%= @events[0].title %></strong></td></tr>
 <tr><td>termin: <strong><span id="meeting-date"><%= @events[0].datetime.strftime("%Y-%m-%d %H:%M") %></span></strong></td></tr>
 <tr><td>tematy:
+  <% unless @event_topics.empty? %>
   <ul class="sidebar-ul"><% @event_topics.each do |event_topic| %>
-    <li><%= "#{event_topic.title} [#{event_topic.speaker}]" %></li>
+    <li class="event-li" title="<%= event_topic.title %>" data-content="<%= event_topic.content %>" ><%= "#{event_topic.title} [#{event_topic.speaker}]" %></li>
   <% end %></ul>
+  <% else %>
+    <strong>brak dodanych tematów!</strong>
+  <% end %>
 </td></tr>
 <tr><td>miejsce: <strong><span id="meeting-address-2"><%= @events[0].place %></span></strong></td></tr>
 <tr><td><div id="map_canvas_2" style="width:200px; height:200px;"></div></td></tr>

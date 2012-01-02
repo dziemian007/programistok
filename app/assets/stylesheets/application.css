@@ -2378,7 +2378,8 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 }
 .popover .content {
   background-color: #ffffff;
-  padding: 14px;
+  padding: 14px !important;
+  margin: 0px !important;
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
