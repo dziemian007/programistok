@@ -66,13 +66,6 @@ class StoriesController < ApplicationController
 		@title = "Nowy news"
     respond_to do |format|
       if @story.save
-        Twitter.configure do |config|
-          config.consumer_key = "d0cBwm8xz8xaDcl6UmQQ"
-          config.consumer_secret = "slMtX83BBkncJ2PilzYjvEhYdtqVYggzZhVXGT8Ac"
-          config.oauth_token = "450629388-dHkETGzc2AxWiQWABCGTlIPH8zxpszPFlBAI1CZq"
-          config.oauth_token_secret = "IXBsgYXtra05zzbU8S7Bm8OniMZN17K1s9MIsoX2w"
-        end
-        Twitter.update(@story.title + "   " + story_url(@story))
         format.html { redirect_to @story, notice: 'Wiadomość utworzono pomyślnie.' }
         format.json { render json: @story, status: :created, location: @story }
       else
