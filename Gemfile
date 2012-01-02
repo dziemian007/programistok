@@ -13,6 +13,7 @@ gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 gem 'yaml_db'
 gem 'date_validator'
 gem 'twitter'
+gem 'rdiscount'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
