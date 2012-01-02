@@ -18,6 +18,6 @@
 	<%= will_paginate @events, :class=>"paginate-next", :page_links => false, :previous_label=>"Następne &raquo;", param_name: :event_page %>
 </center>
 
-<% elsif %>
+<% else %>
 <h3>Brak spotkań </h3>
 <% end %>
