@@ -48,11 +48,14 @@ module Programistok
 
     # Enable the asset pipeline
     config.assets.enabled = true
-
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-		
+		config.assets.precompile += ['custom.css', 'jqueryui.css', 'jquery-ui.js', 'bootstrap-dropdown.js']
+
 		config.i18n.default_locale = :pl
+
+    config.active_record.observers = :topic_observer
+    config.active_record.observers = :story_observer
 
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
@@ -64,6 +67,13 @@ module Programistok
       authentication:       'plain',
       enable_starttls_auto: true
     }
+  end
+
+  Twitter.configure do |config|
+    config.consumer_key = "d0cBwm8xz8xaDcl6UmQQ"
+    config.consumer_secret = "slMtX83BBkncJ2PilzYjvEhYdtqVYggzZhVXGT8Ac"
+    config.oauth_token = "450629388-dHkETGzc2AxWiQWABCGTlIPH8zxpszPFlBAI1CZq"
+    config.oauth_token_secret = "IXBsgYXtra05zzbU8S7Bm8OniMZN17K1s9MIsoX2w"
   end
 
 end
