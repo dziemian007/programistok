@@ -50,7 +50,7 @@ module Programistok
     config.assets.enabled = true
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-		config.assets.precompile += ['custom.css', 'jqueryui.css', 'jquery-ui.js', 'bootstrap-dropdown.js']
+		config.assets.precompile += ['custom.css', 'jqueryui.css', 'jqueryui.js']
 
 		config.i18n.default_locale = :pl
 

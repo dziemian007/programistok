@@ -7,7 +7,7 @@
 <tr><td>tematy:
   <% unless @event_topics.empty? %>
   <ul class="sidebar-ul"><% @event_topics.each do |event_topic| %>
-    <li class="li-dialog" id="event-<%= event_topic.id %>"><div id="div-event-<%= event_topic.id %>" class="div-dialog" title="<%= event_topic.title %>"><p><%= event_topic.content %></p></div><%= "#{event_topic.title} [#{event_topic.speaker}]" %></li>
+    <li class="event-li" title="<%= event_topic.title %>" data-content="<%= event_topic.content %>" ><%= "#{event_topic.title} [#{event_topic.speaker}]" %></li>
   <% end %></ul>
   <% else %>
     <strong>brak dodanych tematów!</strong>
