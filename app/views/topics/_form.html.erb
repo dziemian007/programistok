@@ -27,8 +27,8 @@
 
   <div class="clearfix field">
     <label></label>
-    <%= f.radio_button :presentation, "true", :value=>@topic[:presentation].to_s %> chcę zaprezentować
-    <%= f.radio_button :presentation, "false", :value=>!@topic[:presentation].to_s %> chcę posłuchać
+    <%= f.radio_button :presentation, true %> chcę zaprezentować
+    <%= f.radio_button :presentation, false %> chcę posłuchać
 		<%= conditional_error_message_for(@topic, :presentation) %>
   </div>
 
