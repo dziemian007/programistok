@@ -48,10 +48,10 @@ module Programistok
 
     # Enable the asset pipeline
     config.assets.enabled = true
-
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-		
+		config.assets.precompile += ['custom.css', 'jqueryui.css', 'jquery-ui.js', 'bootstrap-dropdown.js']
+
 		config.i18n.default_locale = :pl
 
     config.active_record.observers = :topic_observer
