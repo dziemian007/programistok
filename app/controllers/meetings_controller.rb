@@ -30,7 +30,7 @@ class MeetingsController < ApplicationController
   # GET /meetings/new
   # GET /meetings/new.json
   def new
-    @now = Time.now
+    @now = Time.zone.now
     @now = @now.change(:hour=>18, :min=>0, :sec=>0)
     @meeting = Meeting.new(:datetime=>@now)
 		@alltopics = Topic.where(:meeting_id => nil)
