@@ -39,15 +39,16 @@ function codeAddress(address, m) {
     map = map1;
   else if(m==2)
     map = map2;
-	  geocoder.geocode( { 'address': address}, function(results, status) {
-		if (status == google.maps.GeocoderStatus.OK) {
-			map.setCenter(results[0].geometry.location);
-			var marker = new google.maps.Marker({ map: map, position: results[0].geometry.location});
-		}
-		else{
-      $("#map_canvas_" + m).addClass('hidden');
-      $("#map_canvas_" + m).after('mapa: <strong>niepoprawny adres!</strong>');
-		}
+
+  geocoder.geocode( { 'address': address}, function(results, status) {
+  if (status == google.maps.GeocoderStatus.OK) {
+    map.setCenter(results[0].geometry.location);
+    var marker = new google.maps.Marker({ map: map, position: results[0].geometry.location});
+  }
+  else{
+    $("#map_canvas_" + m).addClass('hidden');
+    $("#map_canvas_" + m).after('mapa: <strong>niepoprawny adres!</strong>');
+  }
  });
 }
 

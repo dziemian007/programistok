@@ -1,7 +1,4 @@
 Programistok::Application.routes.draw do
-	
-  get "events/index"
-
   resources :topics
 
   resources :meetings
