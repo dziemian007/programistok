@@ -1,0 +1,126 @@
+/* Override some defaults */
+html, body {
+  background-color: #eee;
+}
+body {
+  padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+.container {
+  width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+}
+
+/* The white background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+/* Page header tweaks */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+}
+
+.page-header > a {
+  text-decoration: none;
+}
+
+#follow {
+  margin-top:-50px;
+}
+
+/* Give a quick and non-cross-browser friendly divider */
+.content .span4 {
+  margin-left: 0px;
+  padding-left: 19px;
+}
+
+.content .span10 {
+	width: 570px;
+	padding-right: 10px;
+	border-right: 1px solid #DDDDDD;
+}
+
+.topbar .btn {
+  border: 0;
+}
+
+.timestamp {
+  display: block;
+  font-size: 85%;
+  color: #666;
+}
+
+.hidden {
+	display: none;
+}
+
+form .clearfix {
+	margin-bottom: 10px;
+}
+
+form label {
+	margin-right: 10px;
+	width: 50px;
+}
+
+h3.field_with_errors {
+	color: #B94A48;
+	margin-left: 60px;
+}
+
+div.field_with_errors > label, div.field_with_errors > input, 
+div.field_with_errors > textarea, div.field_with_errors > select,
+div.field_with_errors > span {
+	border-color: #EE5F5B;
+	color: #B94A48;
+}
+
+div.field_with_errors > span {
+	margin-left: 60px;
+}
+
+ul.sidebar-ul {
+  list-style-type: square;
+  margin: 0px 0px 0px 10px !important;
+}
+
+li.event-li {
+  width: 200px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+div.ui-datepicker {
+  font: 12px "Trebuchet MS",sans-serif;
+  width: 200px !important;
+}
+
+div.ui-datepicker > table th, table td {
+  line-height: 12px;
+}
+
+.paginate-prev, .paginate-next {
+  display: inline;
+}
+
+.paginate-prev > .previous_page {
+  display: none;
+}
+
+.paginate-next > .next_page {
+  display: none;
+}
+
+

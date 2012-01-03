@@ -3,11 +3,11 @@
 <h2><%= @story.title %></h2>
 
 <p align="justify">
-  <%= raw(@story.teaser) %>
+  <%= raw(RDiscount.new(@story.teaser).to_html) %>
 </p>
 
 <p align="justify">
-  <%= raw(@story.content) %>
+  <%= raw(RDiscount.new(@story.content).to_html) %>
 </p>
 
 <p class="timestamp">

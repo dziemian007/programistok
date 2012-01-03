@@ -1,10 +1,5 @@
 # coding: utf-8
 
-require 'rubygems'
-require 'twitter'
-require 'net/http'
-require 'uri'
-
 class StoriesController < ApplicationController
   # GET /stories
   # GET /stories.json
@@ -64,7 +59,6 @@ class StoriesController < ApplicationController
   def create
     @story = Story.new(params[:story])
 		@title = "Nowy news"
-    @story.content = RDiscount.new(@story.content).to_html
     respond_to do |format|
       if @story.save
         format.html { redirect_to @story, notice: 'Wiadomość utworzono pomyślnie.' }
@@ -81,7 +75,6 @@ class StoriesController < ApplicationController
   def update
     @story = Story.find(params[:id])
 		@title = "Edycja newsa"
-    @story.content = RDiscount.new(@story.content).to_html
     respond_to do |format|
       if @story.update_attributes(params[:story])
         format.html { redirect_to @story, notice: 'Wiadomość zapisano pomyślnie.' }
