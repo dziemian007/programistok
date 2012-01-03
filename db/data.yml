@@ -13,7 +13,7 @@ admins:
     - kamil.dziemianowicz@gmail.com
     - $2a$10$TT.EPRvffXFOdJixwu4Qh.HsLMTUEcO13O4XBfhoyjML5.PqmDAH.
     - 2012-01-02 10:09:38.000000000Z
-    - !!null 
+    - null 
     - 2012-01-02 10:09:38.000000000Z
 
 ---
@@ -71,7 +71,7 @@ stories:
     - ąąóółłęęźźżććńń
     - fąąąóółłę
     - asdfasdfasdfasdfasdfasf
-    - !!null 
+    - null 
     - 2011-12-29 10:24:32.000000000Z
     - 2011-12-29 10:24:32.000000000Z
   - - 2
@@ -83,7 +83,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:14.000000000Z
     - 2011-12-29 10:41:14.000000000Z
   - - 3
@@ -95,7 +95,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:16.000000000Z
     - 2011-12-29 10:41:16.000000000Z
   - - 4
@@ -107,7 +107,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:17.000000000Z
     - 2011-12-29 10:41:17.000000000Z
   - - 5
@@ -119,7 +119,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:18.000000000Z
     - 2011-12-29 10:41:18.000000000Z
   - - 6
@@ -131,7 +131,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:20.000000000Z
     - 2011-12-29 10:41:20.000000000Z
   - - 7
@@ -143,7 +143,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:22.000000000Z
     - 2011-12-29 10:41:22.000000000Z
   - - 8
@@ -155,7 +155,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:23.000000000Z
     - 2011-12-29 10:41:23.000000000Z
   - - 9
@@ -167,7 +167,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:24.000000000Z
     - 2011-12-29 10:41:24.000000000Z
   - - 10
@@ -179,7 +179,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:26.000000000Z
     - 2011-12-29 10:41:26.000000000Z
   - - 11
@@ -191,7 +191,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:27.000000000Z
     - 2011-12-29 10:41:27.000000000Z
   - - 12
@@ -203,7 +203,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:28.000000000Z
     - 2011-12-29 10:41:28.000000000Z
   - - 13
@@ -215,7 +215,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:29.000000000Z
     - 2011-12-29 10:41:29.000000000Z
   - - 14
@@ -227,7 +227,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:30.000000000Z
     - 2011-12-29 10:41:30.000000000Z
   - - 15
@@ -239,7 +239,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:33.000000000Z
     - 2011-12-29 10:41:33.000000000Z
   - - 16
@@ -251,7 +251,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:34.000000000Z
     - 2011-12-29 10:41:34.000000000Z
   - - 17
@@ -263,7 +263,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:35.000000000Z
     - 2011-12-29 10:41:35.000000000Z
   - - 18
@@ -275,7 +275,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:37.000000000Z
     - 2011-12-29 10:41:37.000000000Z
   - - 19
@@ -287,7 +287,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:38.000000000Z
     - 2011-12-29 10:41:38.000000000Z
   - - 20
@@ -299,7 +299,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:39.000000000Z
     - 2011-12-29 10:41:39.000000000Z
   - - 21
@@ -311,7 +311,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:53.000000000Z
     - 2011-12-29 10:41:53.000000000Z
   - - 22
@@ -323,7 +323,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:55.000000000Z
     - 2011-12-29 10:41:55.000000000Z
   - - 23
@@ -335,7 +335,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:56.000000000Z
     - 2011-12-29 10:41:56.000000000Z
   - - 24
@@ -347,7 +347,7 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:57.000000000Z
     - 2011-12-29 10:41:57.000000000Z
   - - 25
@@ -359,56 +359,56 @@ stories:
     - At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
       voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi
       sint, obcaecati cupiditate non provident, similique sunt in culpa
-    - !!null 
+    - null 
     - 2011-12-29 10:41:58.000000000Z
     - 2011-12-29 10:41:58.000000000Z
   - - 26
     - super story title
     - treść
     - wstęp
-    - !!null 
+    - null 
     - 2012-01-02 15:21:04.000000000Z
     - 2012-01-02 15:21:04.000000000Z
   - - 33
     - super story title x2
     - treść
     - wstęp
-    - !!null 
+    - null 
     - 2012-01-02 15:24:58.000000000Z
     - 2012-01-02 15:24:58.000000000Z
   - - 34
     - super story title x2
     - treść
     - wstęp
-    - !!null 
+    - null 
     - 2012-01-02 15:25:22.000000000Z
     - 2012-01-02 15:25:22.000000000Z
   - - 35
     - super story title x2
     - treść
     - wstęp
-    - !!null 
+    - null 
     - 2012-01-02 15:28:22.000000000Z
     - 2012-01-02 15:28:22.000000000Z
   - - 37
     - super story title x2
     - treść
     - wstęp
-    - !!null 
+    - null 
     - 2012-01-02 15:36:11.000000000Z
     - 2012-01-02 15:36:11.000000000Z
   - - 38
     - super story title x3
     - treść
     - wstęp
-    - !!null 
+    - null 
     - 2012-01-02 15:37:12.000000000Z
     - 2012-01-02 15:37:12.000000000Z
   - - 39
     - super story title x4
     - treść
     - wstęp
-    - !!null 
+    - null 
     - 2012-01-02 15:41:43.000000000Z
     - 2012-01-02 15:41:43.000000000Z
   - - 40
@@ -419,7 +419,7 @@ stories:
 
 '
     - <h3>ddd</h3>
-    - !!null 
+    - null 
     - 2012-01-02 15:50:52.000000000Z
     - 2012-01-02 15:50:52.000000000Z
   - - 41
@@ -430,7 +430,7 @@ stories:
 
 '
     - <h3>ddd</h3>
-    - !!null 
+    - null 
     - 2012-01-02 15:51:31.000000000Z
     - 2012-01-02 15:51:31.000000000Z
   - - 42
@@ -438,14 +438,14 @@ stories:
     - ! "<h3> nagłówek h3 </h3>\r\n<a href = \"#\">link to sth </a>\r\n<p> paragraph
       </p>"
     - <h2>nagłówek 2</h2>
-    - !!null 
+    - null 
     - 2012-01-02 15:54:17.000000000Z
     - 2012-01-02 15:58:54.000000000Z
   - - 43
     - asdafasf
     - <a href="http://www.wp.pl">wirtualna</a>
     - ! "This is an H1\r\n=============\r\n\r\nThis is an H2\r\n-------------\r\n<h3>ddd</h3>\r\n"
-    - !!null 
+    - null 
     - 2012-01-02 15:54:28.000000000Z
     - 2012-01-03 08:14:04.000000000Z
 
@@ -478,7 +478,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:26:46.000000000Z
     - 2012-01-02 12:12:21.000000000Z
     - false
@@ -498,7 +498,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:26:47.000000000Z
     - 2012-01-02 12:12:21.000000000Z
     - false
@@ -518,7 +518,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:26:48.000000000Z
     - 2012-01-02 12:12:21.000000000Z
     - false
@@ -598,7 +598,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:26:54.000000000Z
     - 2012-01-02 12:07:51.000000000Z
     - false
@@ -618,7 +618,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:26:55.000000000Z
     - 2012-01-02 12:07:51.000000000Z
     - false
@@ -638,7 +638,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:26:56.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -658,7 +658,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:26:57.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -678,7 +678,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:01.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -698,7 +698,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:02.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -718,7 +718,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:03.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -738,7 +738,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:04.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -758,7 +758,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:05.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -778,7 +778,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:06.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -798,7 +798,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:06.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -818,7 +818,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:07.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -838,7 +838,7 @@ topics:
       id est laborum.
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-29 10:27:08.000000000Z
     - 2011-12-29 13:00:08.000000000Z
     - false
@@ -867,7 +867,7 @@ topics:
     - QWFRQWFG
     - ! ' WGWEFW FE'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 09:57:37.000000000Z
     - 2011-12-30 09:57:37.000000000Z
     - false
@@ -876,7 +876,7 @@ topics:
     - QWFRQWFG
     - ! ' WGWEFW FE'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 09:58:02.000000000Z
     - 2011-12-30 09:58:02.000000000Z
     - false
@@ -894,7 +894,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:06:09.000000000Z
     - 2011-12-30 10:06:09.000000000Z
     - false
@@ -903,7 +903,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:07:10.000000000Z
     - 2011-12-30 10:07:10.000000000Z
     - false
@@ -912,7 +912,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:09:25.000000000Z
     - 2011-12-30 10:09:25.000000000Z
     - false
@@ -921,7 +921,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:09:39.000000000Z
     - 2011-12-30 10:09:39.000000000Z
     - false
@@ -939,7 +939,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:13:26.000000000Z
     - 2011-12-30 10:13:26.000000000Z
     - false
@@ -948,7 +948,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:14:05.000000000Z
     - 2011-12-30 10:14:05.000000000Z
     - false
@@ -957,7 +957,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:14:52.000000000Z
     - 2011-12-30 10:14:52.000000000Z
     - false
@@ -966,7 +966,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:15:53.000000000Z
     - 2012-01-02 13:10:13.000000000Z
     - false
@@ -984,7 +984,7 @@ topics:
     - QWFRQWFG sasagedf af
     - ! ' WGWEFW FE gwge'
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2011-12-30 10:18:44.000000000Z
     - 2012-01-02 13:10:13.000000000Z
     - false
@@ -1020,7 +1020,7 @@ topics:
     - ''
     - '111111111111111'
     - email@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 13:12:51.000000000Z
     - 2012-01-02 13:12:51.000000000Z
     - false
@@ -1029,7 +1029,7 @@ topics:
     - ''
     - '111111111111111'
     - email@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 13:13:13.000000000Z
     - 2012-01-02 13:13:13.000000000Z
     - false
@@ -1038,7 +1038,7 @@ topics:
     - ''
     - '111111111111111'
     - email@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 13:15:52.000000000Z
     - 2012-01-02 13:15:52.000000000Z
     - false
@@ -1047,7 +1047,7 @@ topics:
     - treść
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 14:16:40.000000000Z
     - 2012-01-02 14:16:40.000000000Z
     - true
@@ -1056,7 +1056,7 @@ topics:
     - treść
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 14:39:51.000000000Z
     - 2012-01-02 14:39:51.000000000Z
     - true
@@ -1065,7 +1065,7 @@ topics:
     - eyr eyr er
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 14:50:27.000000000Z
     - 2012-01-02 14:50:27.000000000Z
     - true
@@ -1074,7 +1074,7 @@ topics:
     - eyr eyr er
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 14:53:09.000000000Z
     - 2012-01-02 14:53:09.000000000Z
     - true
@@ -1083,7 +1083,7 @@ topics:
     - eyr eyr er
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 14:57:01.000000000Z
     - 2012-01-02 14:57:01.000000000Z
     - true
@@ -1092,7 +1092,7 @@ topics:
     - eyr eyr er
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 15:04:55.000000000Z
     - 2012-01-02 15:04:55.000000000Z
     - true
@@ -1101,7 +1101,7 @@ topics:
     - eyr eyr er
     - jan nowak
     - nowak@wp.pl
-    - !!null 
+    - null 
     - 2012-01-02 15:06:04.000000000Z
     - 2012-01-02 15:06:04.000000000Z
     - false
