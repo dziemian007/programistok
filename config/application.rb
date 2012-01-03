@@ -54,8 +54,7 @@ module Programistok
 
 		config.i18n.default_locale = :pl
 
-    config.active_record.observers = :topic_observer
-    config.active_record.observers = :story_observer
+    config.active_record.observers = [:topic_observer,:story_observer]
 
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
